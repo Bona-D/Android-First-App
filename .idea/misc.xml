@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/activity_grid_view.xml" value="0.25" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/activity_main2.xml" value="0.24635416666666668" />
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/custom_list_view.xml" value="0.1" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/data_saving.xml" value="0.25" />
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/grid_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/grid_view.xml" value="0.25" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/home.xml" value="0.2359375" />
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/list_view.xml" value="0.18997912317327767" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/registration.xml" value="0.24615384615384617" />
-        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/sign_out.xml" value="0.2" />
+        <entry key="..\:/K-Mech/Projects/Authentication/app/src/main/res/layout/sign_out.xml" value="0.1" />
       </map>
     </option>
   </component>

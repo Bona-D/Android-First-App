@@ -1,6 +1,4 @@
-package com.kmech.authentication;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.kmech.intern.Registration;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -9,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.kmech.intern.R;
+
 
 public class Login extends AppCompatActivity {
 
@@ -55,7 +58,7 @@ public class Login extends AppCompatActivity {
 
 
                     if(pin_l.equals(pin_r)){
-                        Intent intent = new Intent(Login.this,Home.class);
+                        Intent intent = new Intent(Login.this, Home.class);
                         startActivity(intent);
 
                     }

@@ -1,16 +1,9 @@
-package com.kmech.authentication;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
+package com.kmech.intern.Registration;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.Camera;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
@@ -18,7 +11,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.kmech.authentication.R;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import com.kmech.intern.R;
 
 public class Home extends AppCompatActivity {
 
@@ -35,6 +34,7 @@ public class Home extends AppCompatActivity {
 
         btn_signOut = (Button) findViewById(R.id.btn_signOut);
         btn_Camera  = (Button) findViewById(R.id.btn_Camera);
+        imageView   = (ImageView) findViewById(R.id.imageView);
 
 
         btn_signOut.setOnClickListener(new View.OnClickListener() {

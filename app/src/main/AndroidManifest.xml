@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kmech.authentication">
+    package="com.kmech.intern">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -15,29 +15,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Authentication"
         tools:targetApi="31">
+        <activity
+            android:name=".GridView.GridView"
+            android:exported="true" >
 
+
+        </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert"
-            android:screenOrientation="fullSensor"
-            android:configChanges="orientation"
-            android:name=".SignOut"
+            android:name=".ListView.Custom_List_View"
             android:exported="true" />
         <activity
-            android:name=".Home"
-            android:exported="true" />
-        <activity
-            android:name=".Login"
-            android:configChanges="orientation"
-            android:exported="true" />
-        <activity
-            android:name=".Registration"
+            android:name=".ListView.List_View"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
+        </activity>
+        <activity
+            android:name=".Registration.Registration"
+            android:exported="true" />
+        <activity
+            android:name=".Registration.Home"
+            android:exported="true" />
+        <activity
+            android:name=".Registration.Login"
+            android:exported="true" />
+        <activity
+            android:name=".Registration.SignOut"
+            android:exported="true" />
     </application>
+
 </manifest>

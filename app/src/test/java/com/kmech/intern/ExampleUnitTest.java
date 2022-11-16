@@ -1,4 +1,4 @@
-package com.kmech.authentication;
+package com.kmech.intern;
 
 import org.junit.Test;
 

@@ -1,11 +1,13 @@
-package com.kmech.authentication;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.kmech.intern.Registration;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.kmech.intern.R;
 
 public class SignOut extends AppCompatActivity {
 
